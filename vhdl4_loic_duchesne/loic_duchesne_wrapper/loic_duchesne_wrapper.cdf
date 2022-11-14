@@ -1,0 +1,15 @@
+/* Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition */
+JedecChain;
+	FileRevision(JESD32A);
+	DefaultMfr(6E);
+
+	P ActionCode(Ign)
+		Device PartName(SOCVHPS) MfrSpec(OpMask(0));
+	P ActionCode(Cfg)
+		Device PartName(5CSEMA5F31) Path("C:/Users/loic4/OneDrive - McGill University/ECSE 222/VHDL Assignment 4/loic_duchesne_wrapper/output_files/") File("loic_duchesne_wrapper.sof") MfrSpec(OpMask(1));
+
+ChainEnd;
+
+AlteraBegin;
+	ChainType(JTAG);
+AlteraEnd;
